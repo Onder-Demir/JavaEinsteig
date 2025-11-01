@@ -1,30 +1,16 @@
-# --- IDE'ler ---
+# IntelliJ IDEA
 .idea/
 *.iml
-.vscode/
-.apt_generated
-.classpath
-.project
-.settings/
-.springBeans
-.sts4-cache
-.nb-gradle/
-.nbproject/private/
 
-# --- Build/çıktılar ---
-target/
-build/
+# Build output
 out/
 bin/
-dist/
-nbbuild/
-nbdist/
+build/
+target/
+
+# Java binary dosyaları
 *.class
-*.log
 
-# --- Gradle ---
-.gradle/
-
-# --- İşletim sistemi ---
+# OS
 .DS_Store
 Thumbs.db
