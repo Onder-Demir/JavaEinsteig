@@ -1,46 +1,30 @@
-# IntelliJ IDEA
+# --- IDE'ler ---
 .idea/
 *.iml
-
-# Java çıktıları
-out/
-target/
-build/
-*.class
-
-# Sistem dosyaları
-.DS_Store
-Thumbs.db
-
-
-
-### IntelliJ IDEA ###
-out/
-!**/src/main/**/out/
-!**/src/test/**/out/
-.kotlin
-
-### Eclipse ###
+.vscode/
 .apt_generated
 .classpath
-.factorypath
 .project
-.settings
+.settings/
 .springBeans
 .sts4-cache
+.nb-gradle/
+.nbproject/private/
+
+# --- Build/çıktılar ---
+target/
+build/
+out/
 bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
+dist/
+nbbuild/
+nbdist/
+*.class
+*.log
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
+# --- Gradle ---
+.gradle/
 
-### VS Code ###
-.vscode/
-
-### Mac OS ###
+# --- İşletim sistemi ---
 .DS_Store
+Thumbs.db
